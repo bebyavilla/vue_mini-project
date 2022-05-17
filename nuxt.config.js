@@ -48,7 +48,12 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      name: 'BAV Movie - Mini Project Vue',
+      short_name: 'BAV Movie',
+      lang: 'id',
+      useWebManifestExtension: false,
+      start_url: '/',
+      theme_color: '#ff6666',
     },
   },
 
