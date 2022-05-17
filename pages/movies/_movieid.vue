@@ -8,7 +8,6 @@
     <NuxtLink 
     class="button" 
     to="/"
-    target="_blank"
     > 
     BACK 
     </NuxtLink>
@@ -62,7 +61,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'singleMovie',
+  name: 'SingleMovie',
 
   async fetch() {
     await this.getSingleMovie()

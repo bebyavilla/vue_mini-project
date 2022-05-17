@@ -136,9 +136,9 @@ export default {
           '#1b263d',
         ],
         slides: [
-          'Trending Movies',
-          'Top Rated Movies',
-          'Upcoming Movies',
+          'Now Playing',
+          'TV Show',
+          'Top Rated Movie',
         ],
       }
     },

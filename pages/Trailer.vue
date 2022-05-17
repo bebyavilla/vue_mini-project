@@ -4,9 +4,6 @@
         <br>
         <h1>Trailer Movie</h1>
 
-
-    <!-- Loading Animation -->
-    <Loading v-if="$fetchState.pending" />
     <v-container class="grey lighten-5">
         <v-row no-gutters>
             <v-card
